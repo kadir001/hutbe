@@ -1,0 +1,126 @@
+  body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f3f3f3;
+            color: #333;
+            margin: 0;
+            height: 100vh;
+            background-image: url('cami.png');
+            background-size: cover; /* Make the image cover the entire background */
+            background-repeat: no-repeat; /* Prevent tiling of the image */
+            background-position: center; /* Center the image */
+        }
+
+        .header {
+            background-color: #2a9d8f;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+
+        nav {
+            background-color: #123456;
+            display: flex;
+            justify-content: center;
+            padding: 10px;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 1.2em;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .main-content {
+            text-align: center;
+            padding: 50px 20px;
+        }
+
+        .main-content h2 {
+            font-size: 2em;
+            color: white;
+        }
+
+        .main-content p {
+            font-size: 1.2em;
+            color: white;
+            margin: 20px 0;
+        }
+
+        .btn {
+            background-color: #28a745;
+            color: white;
+            padding: 10px 20px;
+            font-size: 1.2em;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+        }
+
+        .btn:hover {
+            background-color: #218838;
+        }
+
+        .footer {
+            background-color: #2a9d8f;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+        }
+
+.main-content {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h2 {
+    color: #008000;
+}
+
+p {
+    font-size: 1.1em;
+    color: #555;
+}
+
+.khutba-list {
+    list-style: none;
+    padding: 0;
+}
+
+.khutba-list li {
+    margin: 10px 0;
+    background: #008000;
+    padding: 10px;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.khutba-list li:hover {
+    background: #006600;
+}
+
+.khutba-list a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    display: block;
+}
