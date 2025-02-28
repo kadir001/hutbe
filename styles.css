@@ -43,7 +43,7 @@
 
         .main-content {
             text-align: center;
-            padding: 50px 20px;
+            padding: 20px 20px;
         }
 
         .main-content h2 {
@@ -83,7 +83,7 @@
         }
 
 .main-content {
-    max-width: 125px;
+    max-width: 450px;
     margin: 20px auto;
     padding: 20px;
     background: white;
