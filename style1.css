@@ -17,6 +17,7 @@ header {
 nav {
   background: #333;
   color: white;
+  background-color: gray;
 }
 
 nav ul {
